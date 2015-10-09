@@ -15,7 +15,7 @@ paginate:            5
 # About/contact
 author:
   name:              Andre Prudhomme
-  url:               https://twitter.com/mdo
+  url:               
 
 # Custom vars
 version:             1.0.0
