@@ -32,4 +32,4 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 [3]:	/atom.xml
 [4]:	/about
 
-[image-1]:	prudhommea.github.io/public/images/photo-andre-1.jpg
+[image-1]:	https://prudhommea.github.io/public/images/photo-andre-1.jpg

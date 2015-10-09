@@ -4,7 +4,7 @@
  <title>Andre's Site</title>
  <link href="https://prudhommea.github.io//atom.xml" rel="self"/>
  <link href="https://prudhommea.github.io//"/>
- <updated>2015-10-09T00:38:49-07:00</updated>
+ <updated>2015-10-09T00:40:33-07:00</updated>
  <id>https://prudhommea.github.io/</id>
  <author>
    <name>Andre Prudhomme</name>
@@ -25,7 +25,7 @@
 
 &lt;h4 id=&quot;some-photos&quot;&gt;Some photos&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;prudhommea.github.io/public/images/photo-andre-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://prudhommea.github.io/public/images/photo-andre-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;and-some-other-musings&quot;&gt;And some other musings&lt;/h4&gt;
 &lt;ul&gt;
