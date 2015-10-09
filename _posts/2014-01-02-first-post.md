@@ -12,6 +12,7 @@ Welcome to my website, like many things I eventually do, I’ve been considering
 #### Some photos
 
 ![][image-1]
+![][image-2]
 
 #### And some other musings
 * An ode to the Sharpie Pen
@@ -31,4 +32,5 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 [3]:	/atom.xml
 [4]:	/about
 
-[image-1]:	/public/imgs/andre-photo-1 "Truck in Berlin"
+[image-1]:	%7B%7B%20site.url%20%7D%7D/public/images/andre-photo-1.jpg "Truck in Berlin"
+[image-2]:	prudhommea.github.io/public/images/andre-photo-1.jpg
