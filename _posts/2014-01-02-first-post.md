@@ -6,7 +6,7 @@ title: Welcome
 Welcome to my website, like many things I eventually do, I’ve been considering this for quite some time. I hope that writing here will help me share some ideas I think are worth discussing. My writing style is a bit rough, something I blame on business school, slack, and “writing” too many PowerPoint presentations. Hopefully the quality of my writing picks up as I go along, and hopefully I don’t lose too many of you in the meantime. 
 
 ### What’s going to be here?
-
+{% include charts.html %}
 #### Some essays
 
 #### Some photos
@@ -16,7 +16,7 @@ Welcome to my website, like many things I eventually do, I’ve been considering
 
 #### And some other musings
 * An ode to the Sharpie Pen
-* 
+\* 
 
 Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo][1]. Poole, and every theme built on it (like Lanyon here) includes the following:
 

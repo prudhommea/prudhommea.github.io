@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>chart created with amCharts | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="http://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="http://www.amcharts.com/lib/3/serial.js"></script>
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv",
+				{
+					"type": "serial",
+					"categoryField": "category",
+					"startDuration": 1,
+					"categoryAxis": {
+						"gridPosition": "start",
+						"fontSize": 17,
+						"minHorizontalGap": 0,
+						"titleFontSize": 20
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonColor": "#FF8000",
+							"balloonText": "open:[[open]] close:[[close]]",
+							"closeField": "close",
+							"columnWidth": 0.35,
+							"fillAlphas": 0.45,
+							"fillColors": "#41E118",
+							"gapPeriod": 0,
+							"id": "AmGraph-1",
+							"lineColor": "#FFFFFF",
+							"lineThickness": 0,
+							"negativeFillColors": "#E91212",
+							"negativeLineAlpha": 0,
+							"openField": "open",
+							"showBalloon": false,
+							"title": "Starbucks",
+							"type": "column",
+							"valueField": "Not set"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"stackType": "regular",
+							"title": "$, Millions",
+							"titleFontSize": 20
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Square - Starbucks Transaction Processing Deal"
+						}
+					],
+					"dataProvider": [
+						{
+							"category": "Transaction Processing Revenue",
+							"open": "0",
+							"close": "246.9"
+						},
+						{
+							"category": "Cost of Revenue",
+							"open": "246.9",
+							"close": "-56.3"
+						},
+						{
+							"category": "Total Loss, 2012-2015",
+							"open": "0",
+							"close": "-56.3"
+						}
+					]
+				}
+			);
+		</script>
+	</head>
+	<body>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+	</body>
+</html>

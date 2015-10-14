@@ -4,7 +4,7 @@
  <title>Andre's Site</title>
  <link href="https://prudhommea.github.io//atom.xml" rel="self"/>
  <link href="https://prudhommea.github.io//"/>
- <updated>2015-10-09T00:40:33-07:00</updated>
+ <updated>2015-10-14T15:21:01-07:00</updated>
  <id>https://prudhommea.github.io/</id>
  <author>
    <name>Andre Prudhomme</name>
@@ -20,8 +20,95 @@
    <content type="html">&lt;p&gt;Welcome to my website, like many things I eventually do, I’ve been considering this for quite some time. I hope that writing here will help me share some ideas I think are worth discussing. My writing style is a bit rough, something I blame on business school, slack, and “writing” too many PowerPoint presentations. Hopefully the quality of my writing picks up as I go along, and hopefully I don’t lose too many of you in the meantime.&lt;/p&gt;
 
 &lt;h3 id=&quot;whats-going-to-be-here&quot;&gt;What’s going to be here?&lt;/h3&gt;
+&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;chart created with amCharts | amCharts&lt;/title&gt;
+		&lt;meta name=&quot;description&quot; content=&quot;chart created using amCharts live editor&quot; /&gt;
 
-&lt;h4 id=&quot;some-essays&quot;&gt;Some essays&lt;/h4&gt;
+		&lt;!-- amCharts javascript sources --&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.amcharts.com/lib/3/amcharts.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.amcharts.com/lib/3/serial.js&quot;&gt;&lt;/script&gt;
+
+		&lt;!-- amCharts javascript code --&gt;
+		&lt;script type=&quot;text/javascript&quot;&gt;
+			AmCharts.makeChart(&quot;chartdiv&quot;,
+				{
+					&quot;type&quot;: &quot;serial&quot;,
+					&quot;categoryField&quot;: &quot;category&quot;,
+					&quot;startDuration&quot;: 1,
+					&quot;categoryAxis&quot;: {
+						&quot;gridPosition&quot;: &quot;start&quot;,
+						&quot;fontSize&quot;: 17,
+						&quot;minHorizontalGap&quot;: 0,
+						&quot;titleFontSize&quot;: 20
+					},
+					&quot;trendLines&quot;: [],
+					&quot;graphs&quot;: [
+						{
+							&quot;balloonColor&quot;: &quot;#FF8000&quot;,
+							&quot;balloonText&quot;: &quot;open:[[open]] close:[[close]]&quot;,
+							&quot;closeField&quot;: &quot;close&quot;,
+							&quot;columnWidth&quot;: 0.35,
+							&quot;fillAlphas&quot;: 0.45,
+							&quot;fillColors&quot;: &quot;#41E118&quot;,
+							&quot;gapPeriod&quot;: 0,
+							&quot;id&quot;: &quot;AmGraph-1&quot;,
+							&quot;lineColor&quot;: &quot;#FFFFFF&quot;,
+							&quot;lineThickness&quot;: 0,
+							&quot;negativeFillColors&quot;: &quot;#E91212&quot;,
+							&quot;negativeLineAlpha&quot;: 0,
+							&quot;openField&quot;: &quot;open&quot;,
+							&quot;showBalloon&quot;: false,
+							&quot;title&quot;: &quot;Starbucks&quot;,
+							&quot;type&quot;: &quot;column&quot;,
+							&quot;valueField&quot;: &quot;Not set&quot;
+						}
+					],
+					&quot;guides&quot;: [],
+					&quot;valueAxes&quot;: [
+						{
+							&quot;id&quot;: &quot;ValueAxis-1&quot;,
+							&quot;stackType&quot;: &quot;regular&quot;,
+							&quot;title&quot;: &quot;$, Millions&quot;,
+							&quot;titleFontSize&quot;: 20
+						}
+					],
+					&quot;allLabels&quot;: [],
+					&quot;balloon&quot;: {},
+					&quot;titles&quot;: [
+						{
+							&quot;id&quot;: &quot;Title-1&quot;,
+							&quot;size&quot;: 15,
+							&quot;text&quot;: &quot;Square - Starbucks Transaction Processing Deal&quot;
+						}
+					],
+					&quot;dataProvider&quot;: [
+						{
+							&quot;category&quot;: &quot;Transaction Processing Revenue&quot;,
+							&quot;open&quot;: &quot;0&quot;,
+							&quot;close&quot;: &quot;246.9&quot;
+						},
+						{
+							&quot;category&quot;: &quot;Cost of Revenue&quot;,
+							&quot;open&quot;: &quot;246.9&quot;,
+							&quot;close&quot;: &quot;-56.3&quot;
+						},
+						{
+							&quot;category&quot;: &quot;Total Loss, 2012-2015&quot;,
+							&quot;open&quot;: &quot;0&quot;,
+							&quot;close&quot;: &quot;-56.3&quot;
+						}
+					]
+				}
+			);
+		&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div id=&quot;chartdiv&quot; style=&quot;width: 100%; height: 400px; background-color: #FFFFFF;&quot;&gt;&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+&lt;p&gt;#### Some essays&lt;/p&gt;
 
 &lt;h4 id=&quot;some-photos&quot;&gt;Some photos&lt;/h4&gt;
 
@@ -29,8 +116,8 @@
 
 &lt;h4 id=&quot;and-some-other-musings&quot;&gt;And some other musings&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;An ode to the Sharpie Pen&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;An ode to the Sharpie Pen
+*&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Lanyon here) includes the following:&lt;/p&gt;
