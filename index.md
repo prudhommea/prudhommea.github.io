@@ -1,10 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to The Orlando Sangha of Recovery Dharma!
 
-You can use the [editor on GitHub](https://github.com/prudhommea/prudhommea.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+We've collected a few resources here that we think will be helpful to newcomers & regular attendees alike. We hope you find this information helpful.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Meditation
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
